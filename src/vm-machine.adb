@@ -1,8 +1,6 @@
 with VM.Word; use VM.Word;
 with VM.Machine.Execute; use VM.Machine.Execute;
 
-with VM.Machine.Debug; use VM.Machine.Debug;
-
 package body VM.Machine is
 
     function Execute_Instruction 

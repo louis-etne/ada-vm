@@ -1,8 +1,10 @@
 with Ada.Text_IO;
-with VM.Word; use VM.Word;
-with VM.Stack; use VM.Stack;
 
-package body VM.Machine.Debug is
+with VM.Program; use VM.Program;
+with VM.Stack; use VM.Stack;
+with VM.Word; use VM.Word;
+
+package body VM.Debug is
 
     procedure Process_Error (Machine : Machine_Type; Err : Error_Enum) is
         package Instruction_Pointer_IO is new Ada.Text_IO.Integer_IO (Instruction_Pointer_Type);
@@ -35,4 +37,4 @@ package body VM.Machine.Debug is
         end if;
     end Dump;
 
-end VM.Machine.Debug;
+end VM.Debug;

@@ -1,7 +1,7 @@
+with VM.Error; use VM.Error;
 with VM.Instruction; use VM.Instruction;
 with VM.Program; use VM.Program;
 with VM.Stack; use VM.Stack;
-with VM.Error; use VM.Error;
 
 package VM.Machine is
 

@@ -1,5 +1,5 @@
-with VM.Stack; use VM.Stack;
 with VM.Program; use VM.Program;
+with VM.Stack; use VM.Stack;
 
 package body VM.Machine.Execute is
 

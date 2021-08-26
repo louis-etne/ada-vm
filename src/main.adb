@@ -1,16 +1,16 @@
+with VM.Debug;
+with VM.Error;
 with VM.Instruction;
 with VM.Machine;
-with VM.Machine.Debug;
 with VM.Program;
 with VM.Stack;
-with VM.Error;
 with VM.Word;
 with Ada.Text_IO;
 
 procedure Main is
     use VM.Instruction;
     use VM.Machine;
-    use VM.Machine.Debug;
+    use VM.Debug;
     use VM.Program;
     use VM.Stack;
     use VM.Error;
